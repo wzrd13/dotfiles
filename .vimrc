@@ -19,14 +19,19 @@ filetype plugin indent on
 " Plugins Instalation
 call plug#begin('~/.vim/plugged')
 
-" NERDtree File Explorer
-Plug 'scrooloose/nerdtree'
-
 " Auto pairs  
 Plug 'jiangmiao/auto-pairs'
 
 " Status bar
 Plug 'itchyny/lightline.vim'
 
+" PHP Syntax
+Plug 'StanAngeloff/php.vim'
+
 call plug#end()
+
+" Status bar configuration
+set laststatus=2
+set noshowmode
+
 
