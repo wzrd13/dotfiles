@@ -25,5 +25,8 @@ Plug 'scrooloose/nerdtree'
 " Auto pairs  
 Plug 'jiangmiao/auto-pairs'
 
+" Status bar
+Plug 'itchyny/lightline.vim'
+
 call plug#end()
 
