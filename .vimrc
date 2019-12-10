@@ -14,13 +14,16 @@ set nocompatible
 set encoding=utf-8
 
 " For plugins to load correctly
-filetype plugin indent on 
+filetype plugin indent on
+
+" Relatibve numbers
+set relativenumber
 
 " Plugins Instalation
 call plug#begin('~/.vim/plugged')
 
 " Auto pairs  
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
 
 " Status bar
 Plug 'itchyny/lightline.vim'
@@ -28,10 +31,14 @@ Plug 'itchyny/lightline.vim'
 " PHP Syntax
 Plug 'StanAngeloff/php.vim'
 
+" Color schemes 
+Plug 'rafi/awesome-vim-colorschemes'
+
 call plug#end()
 
 " Status bar configuration
 set laststatus=2
 set noshowmode
 
-
+" Color scheme configuration
+colorscheme afterglow
