@@ -84,5 +84,5 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 
 # Source alias 
-source ./.aliases.sh
+source ./.aliases
 

@@ -1,0 +1,12 @@
+# ---------------------------------
+# Common aliases
+# ---------------------------------
+
+alias home='cd ~'
+alias web='cd /var/www/html'
+alias dotfiles='cd $HOME/dotfiles'
+
+# ---------------------------------
+# Git aliases
+# ---------------------------------
+alias g='git' 
