@@ -10,4 +10,4 @@ alias dotfiles='cd $HOME/dotfiles'
 # Git CLI aliases
 alias g='git'
 alias gs='git status'
-alias gpom='git push origin master'
+alias gpom='git push -u origin master'
