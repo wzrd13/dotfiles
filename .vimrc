@@ -1,5 +1,7 @@
 " VIM CONFIGURATION FILE "
 """"""""""""""""""""""""""
+" Tab size for php
+autocmd Filetype php setlocal tabstop=4
 
 " Turn on syntax highlighting
 syntax on
@@ -19,11 +21,14 @@ filetype plugin indent on
 " Relatibve numbers
 set relativenumber
 
+" Disable auto-comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 " Plugins Instalation
 call plug#begin('~/.vim/plugged')
 
 " Auto pairs  
-" Plug 'jiangmiao/auto-pairs'
+Plug 'jiangmiao/auto-pairs'
 
 " Status bar
 Plug 'itchyny/lightline.vim'
@@ -33,6 +38,9 @@ Plug 'StanAngeloff/php.vim'
 
 " Color schemes 
 Plug 'rafi/awesome-vim-colorschemes'
+
+" PHP indending
+Plug '2072/PHP-Indenting-for-VIm'
 
 call plug#end()
 

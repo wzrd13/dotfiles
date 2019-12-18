@@ -1,3 +1,12 @@
 [user]
 	email = 42070629+wzrd13@users.noreply.github.com
 	name = wzrd13
+
+[credential]
+	helper = cache --timeout 3600
+
+[core]
+	editor = vim
+
+[color]
+	ui = true
