@@ -1,7 +1,5 @@
 " VIM CONFIGURATION FILE "
 """"""""""""""""""""""""""
-" Tab size for php
-autocmd Filetype php setlocal tabstop=4
 
 " Turn on syntax highlighting
 syntax on

@@ -3,8 +3,8 @@
 # ---------------------------------
 
 alias home='cd ~'
-alias web='cd /var/www/html'
 alias dotfiles='cd $HOME/dotfiles'
+alias projects= 'cd $HOME/Projects'
 
 # ---------------------------------
 # Git aliases
