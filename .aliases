@@ -3,8 +3,8 @@
 # ---------------------------------
 
 alias home='cd ~'
-alias dotfiles='cd $HOME/dotfiles'
-alias projects= 'cd $HOME/Projects'
+alias dotfiles='cd ~/dotfiles'
+alias proj='cd ~/Projects'
 
 # ---------------------------------
 # Git aliases
