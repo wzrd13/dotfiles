@@ -20,7 +20,7 @@ dotfiles = [
 # Creates symlinks for dotfiles to home directory
 def dot_files_init():
 
-	dst = "/home/wiz/"
+	dst = "$HOME"
 	src = str(pathlib.Path(__file__).parent.absolute()) + '/'
 	old_conf = "old_conf/"
 
