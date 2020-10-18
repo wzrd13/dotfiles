@@ -5,6 +5,7 @@ import shutil
 import pathlib
 import subprocess
 import sys
+from pathlib import Path
 
 # Packages for instalation
 packs = [
@@ -20,7 +21,8 @@ dotfiles = [
 # Creates symlinks for dotfiles to home directory
 def dot_files_init():
 
-	dst = "$HOME"
+	dst = str(Path.home()) + "/" 
+
 	src = str(pathlib.Path(__file__).parent.absolute()) + '/'
 	old_conf = "old_conf/"
 
