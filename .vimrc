@@ -12,13 +12,19 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Auto pairs  
-Plug 'jiangmiao/auto-pairs'
+" Plug 'jiangmiao/auto-pairs'
 
 " Better indenting for python
 " Plug 'Vimjas/vim-python-pep8-indent'
 
 " Fuzzy search files  
 " Plug 'kien/ctrlp.vim'  
+
+" YCM auto completion
+" Plug 'Valloric/YouCompleteMe'
+
+" Python highliting
+Plug 'vim-python/python-syntax'
 
 " Status bar
 Plug 'vim-airline/vim-airline'
@@ -34,6 +40,9 @@ Plug 'preservim/nerdtree'
 
 " Color schemes 
 Plug 'rafi/awesome-vim-colorschemes'
+
+" Auto comments
+Plug 'tpope/vim-commentary'
 
 call plug#end()
 
@@ -90,7 +99,7 @@ set encoding=utf-8
 " For plugins to load correctly
 filetype plugin indent on
 
-" Relatibve numbers
+" Relative numbers
 set relativenumber
 
 " Disable auto-comments
@@ -104,3 +113,7 @@ set scrolloff=10
 " Close NT if it is the last window
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 let NERDTreeShowHidden=1
+
+"__Python Highlighting__
+let g:python_highlight_all = 1
+

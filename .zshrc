@@ -22,6 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Source alias 
 source $HOME/.aliases
+source $HOME/.scripts
 
 # User configuration
 

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+function cd
+{
+	builtin cd "$1"
+   	
+       	if [ -d "./env" ] 
+       	then
+		echo -n "Do you want to source env (y/n)? "
+		read answer
+
+		if [ "$answer" != "${answer#[Yy]}" ] ;then
+			source ./env/bin/activate
+		fi
+	fi
+}
