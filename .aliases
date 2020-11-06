@@ -5,7 +5,6 @@
 alias home='cd ~'
 alias dotfiles='cd ~/dotfiles'
 alias proj='cd ~/Projects'
-alias aenv='source ./env/bin/activate'
 
 # ---------------------------------
 # Git aliases
