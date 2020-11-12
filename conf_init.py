@@ -9,12 +9,14 @@ from pathlib import Path
 
 # Packages for instalation
 packs = [
-	'git', 'curl', 'zsh', 'vim', 'tmux'
+        'curl', 'zsh', 'vim', 'tmux'
 ]
+
+oh_my_zsh = True
 
 # Dotfiles to create symlink for
 dotfiles = [
-	".aliases", ".profile", ".bashrc", ".zshrc",
+	".aliases", ".profile", ".bashrc", ".zshrc", ".exports",
 	".bash_profile", ".tmux.conf", ".vimrc", ".gitconfig", ".scripts"
 ]
 

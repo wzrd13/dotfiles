@@ -26,6 +26,9 @@ source $HOME/.aliases
 # Source .scripts
 source $HOME/.scripts
 
+# Source .exports
+source $HOME/.exports
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
