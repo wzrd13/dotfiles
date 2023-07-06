@@ -4,13 +4,13 @@ function cd
 {
 	builtin cd "$1"
    	
-       	if [ -d "./env" ] 
+       	if [ -d "./.venv" ] 
        	then
 		echo -n "Do you want to source env (y/n)? "
 		read answer
 
 		if [ "$answer" != "${answer#[Yy]}" ] ;then
-			source ./env/bin/activate
+			source ./.venv/bin/activate
 		fi
 	fi
 }
